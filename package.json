@@ -15,7 +15,7 @@
     "lint": "eslint **/*.ts",
     "pack": "ncc build --minify",
     "all": "npm install && npm run build && npm run format && npm run lint && npm test && npm run pack",
-    "fast-all": "npm install && npm run build && npm run pack"
+    "fast-all": "npm run format && npm run build && npm run pack"
   },
   "keywords": [
     "github actions",
